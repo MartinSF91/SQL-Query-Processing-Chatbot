@@ -1,0 +1,32 @@
+SELECT "DIVCODE" AS "DIVCODE",
+       "ORDNO" AS "ORDNO",
+       "TRIPSTAT" AS "TRIPSTAT",
+       "STATDATE" AS "STATDATE",
+       "ROUTENO" AS "ROUTENO",
+       "PARTNO" AS "PARTNO",
+       "DELQUANT" AS "DELQUANT",
+       "DELVOL" AS "DELVOL",
+       "DELWGHT" AS "DELWGHT",
+       "EORDERID" AS "EORDERID",
+       "DELADR" AS "DELADR",
+       "ORDTYPE" AS "ORDTYPE",
+       "SHORTO08" AS "SHORTO08",
+       "PACKAGES1" AS "PACKAGES1",
+       CASE
+           WHEN "ORDTYPE" = 12 THEN '1'
+       END AS "PACKNO",
+       CASE
+           WHEN "ORDTYPE" = 11 THEN 'TRUCK'
+           WHEN "ORDTYPE" = 12 THEN 'PARCEL'
+           ELSE NULL
+       END AS "DEL_TYPE",
+       SUBSTR("ROUTENO", 1, 3) AS "ROUTE_TRIM",
+       SUBSTR("EORDERID", 11, 3) AS "BU_CRE",
+       CASE
+           WHEN SUBSTR("ROUTENO", 1, 3) = 'LOC' THEN 1
+       END AS "LOCAL_ROUTE",
+       CASE
+           WHEN SUBSTR("EORDERID", 11, 3) = '230' THEN 'ECOM'
+           ELSE 'CCD'
+       END AS "BOOKING_TYPE"
+FROM "SQL4"

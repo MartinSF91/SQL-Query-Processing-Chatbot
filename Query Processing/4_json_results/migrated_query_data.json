@@ -1,0 +1,356 @@
+{
+    "EMPLOYEES": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "EMPLOYEES"
+        ],
+        "tables_cleansed": [
+            "EMPLOYEES"
+        ],
+        "columns": [
+            "DEPARTMENT"
+        ],
+        "columns_cleansed": [
+            "DEPARTMENT"
+        ]
+    },
+    "PRODUCT NAMES": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "SALES"
+        ],
+        "tables_cleansed": [
+            "SALES"
+        ],
+        "columns": [
+            "PRODUCT_NAME",
+            "QUANTITY"
+        ],
+        "columns_cleansed": [
+            "PRODUCT_NAME",
+            "QUANTITY"
+        ]
+    },
+    "CUSTOMERS": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "ORDERS"
+        ],
+        "tables_cleansed": [
+            "ORDERS"
+        ],
+        "columns": [
+            "CUSTOMER_ID",
+            "ORDER_AMOUNT"
+        ],
+        "columns_cleansed": [
+            "CUSTOMER_ID",
+            "ORDER_AMOUNT"
+        ]
+    },
+    "CATEGORIES": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "PRODUCTS"
+        ],
+        "tables_cleansed": [
+            "PRODUCTS"
+        ],
+        "columns": [
+            "CATEGORY",
+            "PRICE"
+        ],
+        "columns_cleansed": [
+            "CATEGORY",
+            "PRICE"
+        ]
+    },
+    "REGION": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "REGIONAL_SALES"
+        ],
+        "tables_cleansed": [
+            "REGIONAL_SALES"
+        ],
+        "columns": [
+            "REGION",
+            "SALES_AMOUNT"
+        ],
+        "columns_cleansed": [
+            "REGION",
+            "SALES_AMOUNT"
+        ]
+    },
+    "PROJECT COUNT": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "PROJECTS"
+        ],
+        "tables_cleansed": [
+            "PROJECTS"
+        ],
+        "columns": [
+            "DEPARTMENT",
+            "EMPLOYEE_ID",
+            "PROJECT_ID"
+        ],
+        "columns_cleansed": [
+            "DEPARTMENT",
+            "EMPLOYEE_ID",
+            "PROJECT_ID"
+        ]
+    },
+    "TOTAL DELIVERY": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "DELIVERIES"
+        ],
+        "tables_cleansed": [
+            "DELIVERIES"
+        ],
+        "columns": [
+            "DELIVERY_TIME",
+            "SUPPLIER_ID"
+        ],
+        "columns_cleansed": [
+            "DELIVERY_TIME",
+            "SUPPLIER_ID"
+        ]
+    },
+    "AVERAGE REVENUE": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "STORE_REVENUE"
+        ],
+        "tables_cleansed": [
+            "STORE_REVENUE"
+        ],
+        "columns": [
+            "REVENUE",
+            "STORE_ID"
+        ],
+        "columns_cleansed": [
+            "REVENUE",
+            "STORE_ID"
+        ]
+    },
+    "MAX DISCOUNTS": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "DISCOUNTS"
+        ],
+        "tables_cleansed": [
+            "DISCOUNTS"
+        ],
+        "columns": [
+            "CATEGORY",
+            "DISCOUNT",
+            "PRODUCT_ID"
+        ],
+        "columns_cleansed": [
+            "CATEGORY",
+            "DISCOUNT",
+            "PRODUCT_ID"
+        ]
+    },
+    "ORDER COUNT": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "ORDERS"
+        ],
+        "tables_cleansed": [
+            "ORDERS"
+        ],
+        "columns": [
+            "CUSTOMER_ID",
+            "ORDER_DATE",
+            "ORDER_ID"
+        ],
+        "columns_cleansed": [
+            "CUSTOMER_ID",
+            "ORDER_DATE",
+            "ORDER_ID"
+        ]
+    },
+    "TOTAL WORK HOURS": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "TIMESHEETS"
+        ],
+        "tables_cleansed": [
+            "TIMESHEETS"
+        ],
+        "columns": [
+            "DEPARTMENT",
+            "EMPLOYEE_ID",
+            "HOURS_WORKED"
+        ],
+        "columns_cleansed": [
+            "DEPARTMENT",
+            "EMPLOYEE_ID",
+            "HOURS_WORKED"
+        ]
+    },
+    "AVERAGE PROFIT": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "REGIONAL_PROFITS"
+        ],
+        "tables_cleansed": [
+            "REGIONAL_PROFITS"
+        ],
+        "columns": [
+            "PROFIT",
+            "REGION"
+        ],
+        "columns_cleansed": [
+            "PROFIT",
+            "REGION"
+        ]
+    },
+    "TOTAL SALES AMOUNT": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "SALES"
+        ],
+        "tables_cleansed": [
+            "SALES"
+        ],
+        "columns": [
+            "PRODUCT_NAME",
+            "SALES_AMOUNT",
+            "SALES_DATE"
+        ],
+        "columns_cleansed": [
+            "PRODUCT_NAME",
+            "SALES_AMOUNT",
+            "SALES_DATE"
+        ]
+    },
+    "PRODUCT COUNT": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "PRODUCTS"
+        ],
+        "tables_cleansed": [
+            "PRODUCTS"
+        ],
+        "columns": [
+            "CATEGORY",
+            "PRODUCT_ID"
+        ],
+        "columns_cleansed": [
+            "CATEGORY",
+            "PRODUCT_ID"
+        ]
+    },
+    "SHORTEST DELIVERY TIME": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "DELIVERIES"
+        ],
+        "tables_cleansed": [
+            "DELIVERIES"
+        ],
+        "columns": [
+            "DELIVERY_TIME",
+            "SUPPLIER_ID"
+        ],
+        "columns_cleansed": [
+            "DELIVERY_TIME",
+            "SUPPLIER_ID"
+        ]
+    },
+    "HIGHEST REVENUE": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "STORE_REVENUE"
+        ],
+        "tables_cleansed": [
+            "STORE_REVENUE"
+        ],
+        "columns": [
+            "REVENUE",
+            "STORE_ID"
+        ],
+        "columns_cleansed": [
+            "REVENUE",
+            "STORE_ID"
+        ]
+    },
+    "AVERAGE ORDER AMOUNT": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "ORDERS"
+        ],
+        "tables_cleansed": [
+            "ORDERS"
+        ],
+        "columns": [
+            "CUSTOMER_ID",
+            "ORDER_AMOUNT",
+            "ORDER_STATUS"
+        ],
+        "columns_cleansed": [
+            "CUSTOMER_ID",
+            "ORDER_AMOUNT",
+            "ORDER_STATUS"
+        ]
+    },
+    "AVERAGE DISCOUNT": {
+        "product_name": "NA",
+        "report_path": "NA",
+        "datasource": "NA",
+        "tables": [
+            "DISCOUNTS"
+        ],
+        "tables_cleansed": [
+            "DISCOUNTS"
+        ],
+        "columns": [
+            "CATEGORY",
+            "DISCOUNT",
+            "PRODUCT_ID"
+        ],
+        "columns_cleansed": [
+            "CATEGORY",
+            "DISCOUNT",
+            "PRODUCT_ID"
+        ]
+    }
+}
